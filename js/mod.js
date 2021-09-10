@@ -2,7 +2,7 @@ let modInfo = {
 	name: "The Dingus Tree",
 	id: "DINGUS.01-.9",
 	author: "xApollo",
-	pointsName: "Dinguses",
+	pointsName: "Dingus",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -26,7 +26,7 @@ let winText = `Way to go Dildo, you ruined everything.  Now you die!`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
-var doNotCallTheseFunctionsEveryTick = ["blowUpEverything"]
+var doNotCallTheseFunctionsEveryTick = ["DingusUpEverything"]
 
 function getStartPoints(){
     return new Decimal(modInfo.initialStartPoints)
